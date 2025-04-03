@@ -1,0 +1,99 @@
+
+<html>
+<head>
+    <title>Mobile Lgends</title>
+    <style>
+        img {
+            width: auto; 
+            height: auto; 
+            filter: brightness(0.7) contrast(1.0); 
+            margin: 20px;
+        }
+        .image-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="saber.png" alt="Sunset over mountains" width="600" height="400" title="Beautiful sunset over the mountains">
+        <p>Copyright: Bytedance, Moonton (CC0)</p>
+    </div>
+
+    <div class="image-container">
+        <img src="balmond.png" alt="Forest in Autumn" width="600" height="400" title="Colorful forest in autumn">
+        <p>Copyright: Bytedance, Moonton (CC0)</p>
+    </div>
+
+    <div class="image-container">
+        <img src="miya.png" alt="Ocean waves at sunrise" width="600" height="400" title="Ocean waves during sunset">
+        <p>Copyright: Bytedance, Moonton (CC0)</p>
+    </div>
+
+</body>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            color: black;
+            font-weight: bold;
+            position: relative;
+        }
+
+        #divA {
+            border: 9px solid purple;
+            box-shadow: 0 0 10px red;
+            background-color: white;
+        }
+
+        #divB {
+            border: 4px solid green;
+            box-shadow: 0 0 10px black;
+            background-color: white;
+        }
+
+        #divC {
+            border: 4px solid red;
+            box-shadow: 
+                0 0 0 3px blue,
+                0 0 0 8px red,
+                0 0 0 11px green;
+            background-color: white;
+            border-radius: 10px; 
+        }
+
+        #divD {
+            border: 5px solid red;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="divA" class="box">div#A</div>
+        <div id="divB" class="box">div#B</div>
+        <div id="divC" class="box">div#C</div>
+        <div id="divD" class="box">div#D</div>
+    </div>
+</body>
+</html>
